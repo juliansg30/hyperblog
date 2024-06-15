@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 public class Generador_Email {
 
-    public static void main(String[] args) {
-        
-        
+    public static void main(String[] args) {  
+		//llamado al metodo
+		email();
     }
 	
 	/*
@@ -20,9 +20,12 @@ public class Generador_Email {
      */
     static void email() {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingrese Nombres: ");
+        System.out.println("Ingrese fistName: ");
         String firstName_user = teclado.nextLine().toLowerCase();
-	    System.out.println("Ingrese Apellido: ");
+	    System.out.println("Ingrese LastName: ");
         String lastName_user = teclado.nextLine().toLowerCase();
+		System.out.println("Email asignado es: " 
+		+ firstName_user + "_" + lastName_user + "@email.com.co");
 	}
+
 }
