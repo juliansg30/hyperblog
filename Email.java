@@ -20,8 +20,9 @@ public class Generador_Email {
      */
     static void email() {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingrese Nombres:");
+        System.out.println("Ingrese Nombres: ");
         String firstName_user = teclado.nextLine().toLowerCase();
-
+	    System.out.println("Ingrese Apellido: ");
+        String lastName_user = teclado.nextLine().toLowerCase();
 	}
 }
