@@ -13,6 +13,15 @@ public class Generador_Email {
         
         
     }
+	
+	/*
+     * @autho: Jonny Julian Sanchez gomez
+     * @Descripcion: funcionalidad del metodo email
+     */
+    static void email() {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese Nombres:");
+        String firstName_user = teclado.nextLine().toLowerCase();
 
-  
+	}
 }
