@@ -4,6 +4,7 @@ package udemy;
 * Programa el cual genera un user de email
 */
 
+//librerias
 import java.util.Random;
 import java.util.Scanner;
 
@@ -19,6 +20,7 @@ public class Generador_Email {
      * @autho: Jonny Julian Sanchez gomez
      * @Descripcion: funcionalidad del metodo email
      */
+    //metodo email
     static void email() {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese fistName: ");
