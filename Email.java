@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Generador_Email {
 
+	//metodo principal
     public static void main(String[] args) {  
 		//llamado al metodo
 		email();
